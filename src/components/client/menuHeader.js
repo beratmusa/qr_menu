@@ -3,24 +3,37 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const MenuHeader = () => {
-  const [selected, setSelected] = useState(null);
+  // Seçili kategori state'i. Her zaman "new" olarak başlatıyoruz.
+  const [selected, setSelected] = useState("new");
 
-  // Menü başlıklarını doğrudan burada tanımlayın
+  // Menü başlıklarını tanımlıyoruz
   const menuItems = [
     { id: "new", title: "New" },
-    { id: "ice coffee", title: "İce Coffee" },
+    { id: "ice coffee", title: "Ice Coffee" },
     { id: "hot coffee", title: "Hot Coffee" },
     { id: "special drinks", title: "Special Drinks" },
     { id: "tea", title: "Tea" },
     { id: "dessert", title: "Dessert" },
   ];
 
+  // Menü itemine tıklama işlemi
   const handleClick = (id) => {
-    setSelected(id);
+    // Sayfa içeriğine kaydır
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
+
+    // Menü başlığını yatay olarak kaydır
+    setTimeout(() => {
+      const item = document.getElementById(`menu-${id}`);
+      if (item) {
+        item.scrollIntoView({ behavior: "smooth", inline: "center" });
+      }
+    }, 500); // Menü kaydırma animasyonunun süresi (500ms) ile eşleşmelidir
+
+    // Seçili kategori state'ini güncelle
+    setSelected(id);
   };
 
   return (
@@ -29,9 +42,10 @@ const MenuHeader = () => {
         {menuItems.map((item) => (
           <motion.div
             key={item.id}
+            id={`menu-${item.id}`} // Menü başlığına unique bir id veriyoruz
             className={`menu-item px-6 select-none py-2 mr-6 rounded-lg cursor-pointer ${
-              selected === item.id ? "bg-color_1" : ""
-            }`}
+              item.id === "new" ? "bg-color_1" : "bg-color_default"
+            }`} // "New" her zaman belirli bir renk alır, diğerleri varsayılan renk alır
             onClick={() => handleClick(item.id)}
           >
             {item.title}
