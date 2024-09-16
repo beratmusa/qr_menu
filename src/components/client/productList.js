@@ -36,7 +36,9 @@ const ProductList = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="col-span-2 text-2xl font-bold mb-4">{category}</h2>
+          <h2 className="col-span-2 text-2xl font-bold mb-4 select-none">
+            {category}
+          </h2>
           {categories[category].map((product) => (
             <ProductCard
               key={product.id}

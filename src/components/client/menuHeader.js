@@ -37,7 +37,7 @@ const MenuHeader = () => {
   };
 
   return (
-    <div className="menu-header sticky top-0 bg-color_3 z-50 p-2">
+    <div className="menu-header sticky top-0 bg-color_3 z-50 p-2 shadow">
       <div className="menu-items flex overflow-x-auto whitespace-nowrap font-salsa text-2xl p-3">
         {menuItems.map((item) => (
           <motion.div

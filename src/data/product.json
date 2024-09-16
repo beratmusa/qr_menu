@@ -12,154 +12,171 @@
     "id": "2",
     "title": "Ürün 2",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$30.00",
-    "image": "/images/product2.jpg",
+    "price": "140 ₺",
+    "image": "/icee.png",
     "category": "new",
-    "category-popUp": "Tatlı ve Yumuşak İçim"
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "3",
     "title": "Ürün 3",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "new"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "new",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "4",
     "title": "Ürün 4",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "new"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "new",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "5",
     "title": "Ürün 5",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
+    "price": "140 ₺",
+    "image": "/icee.png",
     "category": "ice coffee",
-    "category-popUp": "Tatlı ve Yumuşak İçim"
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "6",
     "title": "Ürün 6",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "ice coffee"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "ice coffee",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "7",
     "title": "Ürün 7",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "ice coffee"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "ice coffee",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "8",
     "title": "Ürün 8",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "ice coffee"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "ice coffee",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "9",
     "title": "Ürün 9",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "hot coffee"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "hot coffee",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "10",
     "title": "Ürün 10",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "hot coffee"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "hot coffee",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "11",
     "title": "Ürün 11",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "special drinks"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "special drinks",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "12",
     "title": "Ürün 12",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "special drinks"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "special drinks",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "13",
     "title": "Ürün 13",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "special drinks"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "special drinks",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "14",
     "title": "Ürün 14",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "special drinks"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "special drinks",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "15",
     "title": "Ürün 15",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "tea"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "tea",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "16",
     "title": "Ürün 16",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "tea"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "tea",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "17",
     "title": "Ürün 17",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "dessert"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "dessert",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "18",
     "title": "Ürün 18",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "dessert"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "dessert",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "19",
     "title": "Ürün 19",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "dessert"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "dessert",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   },
   {
     "id": "20",
     "title": "Ürün 20",
     "description": "Bu ürünün kısa açıklaması burada yer alacak.",
-    "price": "$40.00",
-    "image": "/images/product3.jpg",
-    "category": "dessert"
+    "price": "140 ₺",
+    "image": "/icee.png",
+    "category": "dessert",
+    "category_popUp": "Tatlı ve Yumuşak İçim"
   }
 ]
