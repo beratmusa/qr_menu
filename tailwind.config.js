@@ -17,6 +17,10 @@ module.exports = {
       },
       fontFamily: {
         salsa: ["Salsa", "cursive"],
+        ubuntu: ["Ubuntu", "sans-serif"],
+      },
+      screens: {
+        "sm-phone": "375px",
       },
     },
   },

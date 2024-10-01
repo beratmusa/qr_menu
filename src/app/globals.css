@@ -20,6 +20,27 @@ body {
   }
 }
 
+.animated-gradient {
+  animation: animateBg 12s linear infinite;
+  background-image: linear-gradient(
+    0deg,
+    #fffff0,
+    #e8ecf6,
+    #fdffc1,
+    #fffff0,
+    #e8ecf6
+  );
+  background-size: 100% 400%;
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
 .bg-splashBackground {
   background-color: var(--splashBackground);
 }
@@ -41,7 +62,7 @@ body {
   background: #fff;
   border-radius: 8px;
   position: relative;
-  width: 90%;
+  width: 83%;
 }
 
 .transition-page {
